@@ -24,14 +24,29 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QLH-Gq-EAY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jry-ma-7xM">
+                                <rect key="frame" x="137.5" y="170" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="UZG-8q-2aH"/>
+                                    <constraint firstAttribute="height" constant="100" id="cCe-ft-C3i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DAZ-gm-ygj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NMI-pQ-S5S"/>
                             <constraint firstItem="DAZ-gm-ygj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WJt-on-pe1"/>
+                            <constraint firstItem="Jry-ma-7xM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="niI-RW-56s"/>
+                            <constraint firstItem="Jry-ma-7xM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="phF-g6-egN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="myLabel" destination="Jry-ma-7xM" id="kvy-KN-DqH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
