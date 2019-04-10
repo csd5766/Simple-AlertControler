@@ -28,8 +28,6 @@ class ViewController: UIViewController {
         let saveAction = UIAlertAction(title: "svae", style: .default, handler: nil)
         
 //        let delAction = UIAlertAction(title: "Delete", style: .default, handler: {(action: UIAlertAction) -> Void in self.view.backgroundColor = UIColor.blue
-//
-//
 //        })
         
         //후행 클로저(trailing closure)
